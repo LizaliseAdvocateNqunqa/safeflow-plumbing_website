@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        SafeFlow Plumbing Services | Contact & Booking
+    </title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body class="contact-page">
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                SafeFlow<span>.</span>
+            </div>
+
+
+            <button
+                class="menu-toggle"
+                onclick="toggleMenu()">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+
+            <ul
+                class="nav-links"
+                id="navLinks">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About & Services
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="contact.html"
+                        class="active">
+
+                        Contact & Booking
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="contact-container">
+
+
+        <!-- ================= INTRO ================= -->
+
+        <section class="contact-intro">
+
+            <p>
+                GET IN TOUCH
+            </p>
+
+            <h1>
+                Contact SafeFlow
+            </h1>
+
+            <div class="heading-line"></div>
+
+            <p>
+                Need a plumber? Call us, WhatsApp us,
+                or make a service booking below.
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= CONTACT OPTIONS ================= -->
+
+        <section class="contact-options">
+
+
+            <!-- PHONE -->
+
+            <a
+                href="tel:0605658110"
+                class="contact-card">
+
+                <i class="fas fa-phone"></i>
+
+                <h2>
+                    Call Us
+                </h2>
+
+                <p>
+                    060 565 8110
+                </p>
+
+                <span>
+                    Tap to call
+                </span>
+
+            </a>
+
+
+
+            <!-- LANDLINE -->
+
+            <a
+                href="tel:0767908814"
+                class="contact-card">
+
+                <i class="fas fa-phone-volume"></i>
+
+                <h2>
+                    Landline
+                </h2>
+                <p>
+                    0767908814
+                </p>
+
+                <span>
+                    Tap to call
+                </span>
+
+            </a>
+
+
+
+            <!-- WHATSAPP -->
+
+            <a
+                href="https://wa.me/27605658110"
+                target="_blank"
+                class="contact-card whatsapp-card">
+
+                <i class="fab fa-whatsapp"></i>
+
+                <h2>
+                    WhatsApp
+                </h2>
+
+                <p>
+                    060 565 8110
+                </p>
+
+                <span>
+                    Chat with us
+                </span>
+
+            </a>
+
+
+        </section>
+
+
+
+        <!-- ================= BOOKING ================= -->
+
+        <section class="booking-section">
+
+
+            <div class="booking-header">
+
+                <i class="fas fa-calendar-check"></i>
+
+                <h2>
+                    Book a Plumbing Service
+                </h2>
+
+                <p>
+                    Select your preferred service, date,
+                    time and payment method.
+                </p>
+
+            </div>
+
+
+
+            <form id="bookingForm">
+
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="customerName">
+
+                        <i class="fas fa-user"></i>
+
+                        Full Name
+
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        placeholder="Enter your full name"
+                        required>
+
+                </div>
+
+
+<!-- ================= PHONE ================= -->
+
+<div class="form-group">
+
+    <label for="phone">
+        <i class="fas fa-mobile-screen"></i>
+        Phone Number
+    </label>
+
+    <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="0821234567 or +27821234567"
+        pattern="^(0[6-8][0-9]{8}|\+27[6-8][0-9]{8})$"
+        title="Enter a valid South African mobile number, e.g. 0821234567 or +27821234567"
+        maxlength="12"
+        required>
+
+    <small>
+        Enter a South African number starting with 0 or +27.
+    </small>
+
+</div>
+
+
+                <!-- SERVICE -->
+
+                <div class="form-group">
+
+                    <label for="service">
+
+                        <i class="fas fa-tools"></i>
+
+                        Service Required
+
+                    </label>
+
+
+                    <select
+                        id="service"
+                        required>
+
+                        <option value="">
+                            -- Choose a service --
+                        </option>
+
+                        <option value="Leak Repair">
+                            Leak Repair
+                        </option>
+
+                        <option value="Drain Cleaning">
+                            Drain Cleaning
+                        </option>
+
+                        <option value="Pipe Installation">
+                            Pipe Installation
+                        </option>
+
+                        <option value="Toilet Repair">
+                            Toilet Repair
+                        </option>
+
+                        <option value="Geyser Service">
+                            Geyser Service
+                        </option>
+
+                        <option value="Tap Repair">
+                            Tap Repair
+                        </option>
+
+                        <option value="Other Plumbing Service">
+                            Other Plumbing Service
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- LOCATION -->
+
+                <div class="form-group">
+
+                    <label for="location">
+
+                        <i class="fas fa-location-dot"></i>
+
+                        Service Location
+
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="Enter your area or address"
+                        required>
+
+                </div>
+
+
+
+                <!-- DATE + TIME -->
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="bookingDate">
+
+                            <i class="fas fa-calendar"></i>
+
+                            Preferred Date
+
+                        </label>
+
+
+                        <input
+                            type="date"
+                            id="bookingDate"
+                            required>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="bookingTime">
+
+                            <i class="fas fa-clock"></i>
+
+                            Preferred Time
+
+                        </label>
+
+
+                        <input
+                            type="time"
+                            id="bookingTime"
+                            required>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- PAYMENT -->
+
+                <div class="form-group">
+
+                    <label>
+
+                        <i class="fas fa-money-bill-wave"></i>
+
+                        Preferred Payment Method
+
+                    </label>
+
+
+                    <div class="payment-options">
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="Cash"
+                                required>
+
+                            <span>
+
+                                <i class="fas fa-money-bill"></i>
+
+                                Cash
+
+                            </span>
+
+                        </label>
+
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="EFT">
+
+                            <span>
+
+                                <i class="fas fa-building-columns"></i>
+
+                                EFT
+
+                            </span>
+
+                        </label>
+
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="Card">
+
+                            <span>
+
+                                <i class="fas fa-credit-card"></i>
+
+                                Card
+
+                            </span>
+
+                        </label>
+
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="Other">
+
+                            <span>
+
+                                <i class="fas fa-wallet"></i>
+
+                                Other
+
+                            </span>
+
+                        </label>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="message">
+
+                        <i class="fas fa-message"></i>
+
+                        Describe Your Problem
+
+                    </label>
+
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Describe your plumbing problem..."></textarea>
+
+                </div>
+
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="whatsapp-book-button">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    Book Through WhatsApp
+
+                </button>
+
+
+            </form>
+
+
+            <div id="bookingMessage"></div>
+
+
+        </section>
+
+
+
+        <!-- ================= URGENT CONTACT ================= -->
+
+        <section class="contact-summary">
+
+            <h2>
+                Need urgent assistance?
+            </h2>
+
+            <p>
+                Contact SafeFlow Plumbing Services directly.
+            </p>
+
+
+            <div class="urgent-buttons">
+
+
+                <a href="tel:0605658110">
+
+                    <i class="fas fa-phone"></i>
+
+                    060 565 8110
+
+                </a>
+
+
+                <a href="tel:0767908814">
+
+                    <i class="fas fa-phone"></i>
+
+                    0767908814
+
+                </a>
+
+
+                <a
+                    href="https://wa.me/27605658110"
+                    target="_blank">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    WhatsApp
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= PAGE NAVIGATION ================= -->
+
+    <div class="page-navigation">
+
+        <button
+            class="previous-btn"
+            onclick="previousPage()">
+
+            <i class="fas fa-arrow-left"></i>
+
+            Previous
+
+        </button>
+
+
+        <span>
+            Page 3 of 3
+        </span>
+
+
+        <button
+            class="next-btn"
+            onclick="nextPage()">
+
+            Next
+
+            <i class="fas fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            &copy; <span id="year"></span>
+
+            SafeFlow Plumbing Services.
+            All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

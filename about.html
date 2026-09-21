@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeFlow Plumbing Services | About & Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body class="about-page">
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                SafeFlow<span>.</span>
+            </div>
+
+
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="active">
+                        About & Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact & Booking
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main class="about-container">
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-company">
+
+            <div class="section-heading">
+
+                <p>
+                    WHO WE ARE
+                </p>
+
+                <h1>
+                    About SafeFlow
+                </h1>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="about-content">
+
+
+                <div class="about-icon">
+
+                    <i class="fas fa-faucet-drip"></i>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <h2>
+                        SafeFlow Plumbing Services
+                    </h2>
+
+
+                    <p>
+                        SafeFlow Plumbing Services is a plumbing
+                        company founded in
+                        <strong>February 2023</strong>
+                        by two individuals,
+                        <strong>Sonwabise and Lizalise</strong>.
+                    </p>
+
+
+                    <p>
+                        Our company is based in
+                        <strong>Mthatha, Eastern Cape</strong>.
+                        We operate around Mthatha and its
+                        surrounding townships.
+                    </p>
+
+
+                    <p>
+                        We believe that good plumbing is about more
+                        than simply fixing pipes. It is about providing
+                        dependable service, quality workmanship and
+                        solutions that customers can trust.
+                    </p>
+
+
+                    <p>
+                        Our team is committed to helping homes,
+                        businesses and other properties with their
+                        plumbing needs.
+                    </p>
+
+
+                    <div class="company-details">
+
+                        <div>
+                            <i class="fas fa-calendar"></i>
+                            <strong>Founded:</strong>
+                            February 2023
+                        </div>
+
+                        <div>
+                            <i class="fas fa-user-group"></i>
+                            <strong>Founders:</strong>
+                            Sonwabise & Lizalise
+                        </div>
+
+                        <div>
+                            <i class="fas fa-location-dot"></i>
+                            <strong>Based:</strong>
+                            Mthatha, Eastern Cape
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services-section">
+
+            <div class="section-heading">
+
+                <p>
+                    WHAT WE DO
+                </p>
+
+                <h1>
+                    Our Plumbing Services
+                </h1>
+
+                <div class="heading-line"></div>
+
+                <p class="section-description">
+                    Choose a service to learn more about our
+                    plumbing solutions and starting prices.
+                </p>
+
+            </div>
+
+
+            <div class="services-grid">
+
+
+                <!-- LEAK REPAIR -->
+
+                <div class="service-card">
+
+                    <div class="service-image">
+
+                        <img
+                            src="WhatsApp Image 2026-09-15 at 11.51.19.jpeg"
+                            alt="Leak repair">
+
+                        <div class="price">
+                            From R350
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <i class="fas fa-droplet service-icon"></i>
+
+                        <h2>
+                            Leak Repairs
+                        </h2>
+
+                        <p>
+                            We repair leaking pipes, taps and
+                            other plumbing leaks to help prevent
+                            water wastage and property damage.
+                        </p>
+
+                        <button onclick="bookService('Leak Repair')">
+
+                            <i class="fas fa-calendar-check"></i>
+
+                            Book This Service
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- DRAIN CLEANING -->
+
+                <div class="service-card">
+
+                    <div class="service-image">
+
+                        <img
+                            src="WhatsApp Image 2026-09-15 at 11.55.12.jpeg"
+                            alt="Drain cleaning">
+
+                        <div class="price">
+                            From R450
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <i class="fas fa-water service-icon"></i>
+
+                        <h2>
+                            Drain Cleaning
+                        </h2>
+
+                        <p>
+                            We help clear blocked and slow
+                            drains, sinks and wastewater pipes.
+                        </p>
+
+                        <button onclick="bookService('Drain Cleaning')">
+
+                            <i class="fas fa-calendar-check"></i>
+
+                            Book This Service
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PIPE INSTALLATION -->
+
+                <div class="service-card">
+
+                    <div class="service-image">
+
+                        <img
+                            src="WhatsApp Image 2026-09-15 at 11.23.55.jpeg"
+                            alt="Pipe installation">
+
+                        <div class="price">
+                            From R600
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <i class="fas fa-wrench service-icon"></i>
+
+                        <h2>
+                            Pipe Installation
+                        </h2>
+
+                        <p>
+                            Professional installation and
+                            replacement of water pipes for
+                            homes and other properties.
+                        </p>
+
+                        <button onclick="bookService('Pipe Installation')">
+
+                            <i class="fas fa-calendar-check"></i>
+
+                            Book This Service
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TOILET REPAIR -->
+
+                <div class="service-card">
+
+                    <div class="service-image">
+
+                        <img
+                            src="WhatsApp Image 2026-09-15 at 12.06.23.jpeg"
+                            alt="Toilet repair">
+
+                        <div class="price">
+                            From R400
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <i class="fas fa-toilet service-icon"></i>
+
+                        <h2>
+                            Toilet Repairs
+                        </h2>
+
+                        <p>
+                            Repairing leaks, blockages, faulty
+                            flushes and other common toilet
+                            plumbing problems.
+                        </p>
+
+                        <button onclick="bookService('Toilet Repair')">
+
+                            <i class="fas fa-calendar-check"></i>
+
+                            Book This Service
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- GEYSER -->
+
+                <div class="service-card">
+
+                    <div class="service-image">
+
+                        <img
+                            src="WhatsApp Image 2026-09-15 at 13.38.35.jpeg"
+                            alt="Geyser service">
+
+                        <div class="price">
+                            From R800
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <i class="fas fa-temperature-high service-icon"></i>
+
+                        <h2>
+                            Geyser Services
+                        </h2>
+
+                        <p>
+                            Plumbing assistance for geyser
+                            leaks, water supply problems and
+                            other geyser-related plumbing issues.
+                        </p>
+
+                        <button onclick="bookService('Geyser Service')">
+
+                            <i class="fas fa-calendar-check"></i>
+
+                            Book This Service
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TAP REPAIR -->
+
+                <div class="service-card">
+
+                    <div class="service-image">
+
+                        <img
+                            src="WhatsApp Image 2026-09-15 at 12.09.39.jpeg"
+                            alt="Tap repair">
+
+                        <div class="price">
+                            From R300
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-content">
+
+                        <i class="fas fa-faucet service-icon"></i>
+
+                        <h2>
+                            Tap Repairs
+                        </h2>
+
+                        <p>
+                            Repair and replacement of faulty,
+                            leaking and damaged taps.
+                        </p>
+
+                        <button onclick="bookService('Tap Repair')">
+
+                            <i class="fas fa-calendar-check"></i>
+
+                            Book This Service
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CALLOUT ================= -->
+
+        <section class="callout-section">
+
+            <div class="callout-card">
+
+                <i class="fas fa-car-side"></i>
+
+
+                <div>
+
+                    <h2>
+                        Call-Out Fee Information
+                    </h2>
+
+                    <p>
+                        <strong>Within Mthatha:</strong>
+                        No call-out fee.
+                    </p>
+
+                    <p>
+                        <strong>Outside Mthatha:</strong>
+                        R250 call-out fee payable when a
+                        service is required.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= PAGE NAVIGATION ================= -->
+
+    <div class="page-navigation">
+
+        <button
+            class="previous-btn"
+            onclick="previousPage()">
+
+            <i class="fas fa-arrow-left"></i>
+
+            Previous
+
+        </button>
+
+
+        <span>
+            Page 2 of 3
+        </span>
+
+
+        <button
+            class="next-btn"
+            onclick="nextPage()">
+
+            Next
+
+            <i class="fas fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            &copy; <span id="year"></span>
+
+            SafeFlow Plumbing Services.
+            All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

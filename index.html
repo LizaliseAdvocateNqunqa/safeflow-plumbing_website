@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeFlow Plumbing Services | Home</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="home-page">
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                SafeFlow<span>.</span>
+            </div>
+
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html" class="active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About & Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact & Booking
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main class="home-content">
+
+        <section class="hero">
+
+            <div class="hero-overlay">
+
+                <div class="hero-text">
+
+                    <div class="company-icon">
+                        <i class="fas fa-faucet-drip"></i>
+                    </div>
+
+                    <p class="welcome">
+                        WELCOME TO
+                    </p>
+
+                    <h1>
+                        SafeFlow
+                        <span>Plumbing Services</span>
+                    </h1>
+
+                    <p class="slogan">
+                        "Your pipes, our priority — where quality meets the flow."
+                    </p>
+
+                    <p class="hero-description">
+                        Reliable and professional plumbing services
+                        in Mthatha and its surrounding townships.
+                        We are committed to quality workmanship,
+                        dependable service and customer satisfaction.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="contact.html" class="main-button">
+                            <i class="fas fa-calendar-check"></i>
+                            Book a Service
+                        </a>
+
+                        <a href="about.html" class="secondary-button">
+                            <i class="fas fa-tools"></i>
+                            View Our Services
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUICK INFORMATION ================= -->
+
+        <section class="quick-info">
+
+            <div class="info-box">
+
+                <i class="fas fa-location-dot"></i>
+
+                <h3>
+                    Mthatha & Townships
+                </h3>
+
+                <p>
+                    Proudly serving our local community.
+                </p>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <i class="fas fa-wallet"></i>
+
+                <h3>
+                    No Call-Out Fee
+                </h3>
+
+                <p>
+                    No call-out fee within Mthatha.
+                </p>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <i class="fas fa-truck"></i>
+
+                <h3>
+                    Outside Mthatha
+                </h3>
+
+                <p>
+                    R250 call-out fee applies.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= NAVIGATION BUTTONS ================= -->
+
+    <div class="page-navigation">
+
+        <button class="previous-btn" onclick="previousPage()">
+            <i class="fas fa-arrow-left"></i>
+            Previous
+        </button>
+
+        <span>
+            Page 1 of 3
+        </span>
+
+        <button class="next-btn" onclick="nextPage()">
+            Next
+            <i class="fas fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            &copy; <span id="year"></span>
+            SafeFlow Plumbing Services.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
